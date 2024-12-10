@@ -93,7 +93,7 @@ void grabUserWord(char letter, char word[WORD_CAP]){
 }
 
 
-//Print Madlibs
+//This function is for going through the 2D array after we have inputted the users words
 void print2DArray(int num_rows, char data[][STRING_CAPACITY]){
 	for(int row = 0; row < num_rows; row++){
 		for(int col = 0; data[row][col] != '\0'; col++){
